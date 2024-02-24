@@ -9,9 +9,14 @@ print("K   K   A   A    III     T       OOO ")
 print("")
 print("========================================")
 
-nomor = 11;
 
-if nomor == 10:
-    print(nomor)
-else:
-    print("Tidak Sesuai")
+pilihan = input('''
+                
+    lOGIN & REGISTER SYSTEM VIA CMD BY KAITODECODE
+    
+    option:
+    1 => Register
+    2 => Login
+    3 => Exit
+                
+                ''')
