@@ -44,7 +44,13 @@ while pilihan != '3':
             print("Anda Sudah Menggunakan Kesempatan Register Anda")
         
     elif pilihan == '2':
-        print("Anda memilih login")
+        print("LOGIN PROGRAM") 
+        email_login = input("Masukan email anda: ")
+        password_login = input("Masukan password anda: ")
+        if email_login == email and password_login == password:
+            print("Login berhasil")
+        else:
+            print("Email atau password salah")
         
     elif pilihan == '3':
         print("Anda memilih exit")
