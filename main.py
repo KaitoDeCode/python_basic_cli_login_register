@@ -22,7 +22,7 @@ while pilihan != '3':
     
     pilihan = input('''
                 
-    lOGIN & REGISTER SYSTEM VIA CMD BY KAITODECODE
+    lOGIN & REGISTER SYSTEM VIA CLI BY KAITODECODE
     
     option:
     1 => Register
