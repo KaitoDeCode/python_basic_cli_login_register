@@ -32,12 +32,16 @@ while pilihan != '3':
     choose your option: ''')
     
     if pilihan == '1':
-        print("REGISTER PROGRAM")
-        nama = input("Masukan nama anda: ")
-        email = input("Masukan email anda: ")
-        password = input("Masukan password anda: ")
         
-        print(nama,email,password)
+        if kesempatan_register == 0:
+            kesempatan_register+=1
+            print("REGISTER PROGRAM")
+            nama = input("Masukan nama anda: ")
+            email = input("Masukan email anda: ")
+            password = input("Masukan password anda: ")
+            print(nama,email,password)
+        else:
+            print("Anda Sudah Menggunakan Kesempatan Register Anda")
         
     elif pilihan == '2':
         print("Anda memilih login")
